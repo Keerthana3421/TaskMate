@@ -24,7 +24,7 @@
 
 ## Demo Video
 
-🎥 (You will add the YouTube link here after recording your demo)
+
 
 ---
 
@@ -64,7 +64,7 @@ TaskMate is a personal task manager web app built using Python Flask and SQLite.
 3. **Categories** – List of category names  
 4. **TaskCategories** – Many-to-many link between tasks and categories
 
-✅ All tables are in 3NF with foreign keys and constraints.
+All tables are in 3NF with foreign keys and constraints.
 
 ---
 
@@ -78,15 +78,15 @@ TaskMate is a personal task manager web app built using Python Flask and SQLite.
 
 ## Features Implemented
 
-- ✅ User login and registration  
-- ✅ Create and view tasks  
-- ✅ Edit and delete tasks  
-- ✅ Assign multiple categories (many-to-many)  
-- ✅ Set priority and status  
-- ✅ Search by title  
-- ✅ Filter by status  
-- ✅ Responsive UI with CSS + Bootstrap  
-- ✅ SQL joins used to fetch tasks with categories
+- User login and registration  
+- Create and view tasks
+- Edit and delete tasks  
+- Assign multiple categories (many-to-many)  
+- Set priority and status  
+- Search by title  
+- Filter by status  
+- Responsive UI with CSS + Bootstrap  
+- SQL joins used to fetch tasks with categories
 
 ---
 
@@ -94,4 +94,32 @@ TaskMate is a personal task manager web app built using Python Flask and SQLite.
 
 1. Clone the GitHub repo  
 2. Open the folder in VS Code  
-3. Install Flask:
+3. Install Flask
+
+---
+
+## Project Setup and Running
+
+To run this Flask-based task manager on your local machine, follow these steps:
+
+1. **Clone the GitHub repository**
+
+```bash
+git clone https://github.com/Keerthana3421/TaskMate.git
+
+2. **Navigate into the project directory**
+```bash
+cd TaskMate
+
+3. **Install all required packages (Flask)**
+```bash
+pip install flask
+
+4. **To start the Flask server, run:**
+```bash
+python app.py
+
+5. **Open your browser and go to:**
+```bash
+http://127.0.0.1:5000/
+
