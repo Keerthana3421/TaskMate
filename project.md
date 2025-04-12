@@ -106,4 +106,29 @@ To run this Flask-based task manager on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/Keerthana3421/TaskMate.git
+```
+
+2. **Navigate into the project directory**
+
+```bash
+cd TaskMate
+```
+
+3. **Install all required packages (Flask)**
+
+```bash
+pip install flask
+```
+
+4. **To start the Flask server, run:**
+
+```bash
+python app.py
+```
+
+5. **Open your browser and go to:**
+
+```bash
+http://127.0.0.1:5000/
+```
 
