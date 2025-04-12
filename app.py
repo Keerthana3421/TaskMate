@@ -109,7 +109,7 @@ def dashboard():
 
     return render_template('dashboard.html', tasks=tasks, search=search, status_filter=status_filter)
 
-
+# Route to handle task creation and category selection
 @app.route('/add', methods=['GET', 'POST'])
 def add_task():
     if 'user_id' not in session:
