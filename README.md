@@ -1,4 +1,4 @@
-# Intro to Database Project  
+# Introduction Database Systems Project  
 # TaskMate – A Personal Task Management System
 
 TaskMate is a CRUD-based personal task manager web application developed using **Flask (Python)** for the backend, **SQLite** as the database, and **HTML/CSS with Bootstrap** for the frontend. This project demonstrates a database-driven web platform where users can manage their daily tasks, assign multiple categories, and filter/search by task status and title.
