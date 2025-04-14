@@ -46,4 +46,4 @@ CREATE TABLE IF NOT EXISTS TaskCategories (
 
 conn.commit()
 conn.close()
-print("✅ Tables created!")
+print("Tables created!")
