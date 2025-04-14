@@ -25,4 +25,4 @@ for name, desc in categories:
 conn.commit()
 conn.close()
 
-print("✅ Categories inserted.")
+print("Categories inserted.")
