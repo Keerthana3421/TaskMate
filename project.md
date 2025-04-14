@@ -1,10 +1,9 @@
 # CS 665 Project 1 - TaskMate
 
-## Student Details
 
 - **Name**: Keerthana Gudipalli  
 - **WSU ID**: S832X783 
-- **Course**: CS 665 – INtroduction Database Systems 
+- **Course**: CS 665 – Introduction Database Systems 
 - **Instructor**: Huabo Lu  
 - **Semester**: Spring 2025  
 
