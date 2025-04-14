@@ -165,8 +165,7 @@ def edit_task(task_id):
         cur = conn.cursor()
         cur.execute('UPDATE Tasks SET title = ?, due_date = ?, status = ?, priority = ? WHERE task_id = ? AND user_id = ?',
                     (title, due_date, status, priority, task_id, session['user_id']))
-        
-        # Update categories
+       
         cur.execute('DELETE FROM TaskCategories WHERE task_id = ?', (task_id,))
         for cat_id in selected_categories:
             cur.execute('INSERT INTO TaskCategories (task_id, category_id) VALUES (?, ?)', (task_id, cat_id))
